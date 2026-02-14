@@ -1,0 +1,4 @@
+services:
+  form_alter_events.form_alter_dispatcher:
+    class: Drupal\form_alter_events\Form\FormAlterDispatcher
+    arguments: ['@event_dispatcher']

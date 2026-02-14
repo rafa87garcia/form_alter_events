@@ -1,0 +1,6 @@
+name: 'Form Alter Events'
+type: module
+description: 'Eventos para form alter con EventSubscribers.'
+core_version_requirement: ^9.4 || ^10 || ^11
+version: 1.0.0
+package: Hooks

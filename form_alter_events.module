@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Hooks para disparar el evento de form alter.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function form_alter_events_form_alter(array &$form, FormStateInterface $form_state, $form_id): void {
+  \Drupal::service('form_alter_events.form_alter_dispatcher')
+    ->dispatch($form, $form_state, (string) $form_id);
+}

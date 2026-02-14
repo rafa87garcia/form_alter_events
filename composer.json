@@ -1,0 +1,9 @@
+{
+  "name": "drupal/form_alter_events",
+  "description": "Drupal module that enables form alterations via event subscribers.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/core": "^9.4 || ^10 || ^11"
+  }
+}
